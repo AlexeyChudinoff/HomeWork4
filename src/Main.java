@@ -72,7 +72,7 @@ public class Main {
     }
     if (tiketsSold > sidychihMest && tiketsSold <= vsegoMest) {
       System.out.println(
-          "в вагоне нет свободных сидячих мест, осталось только: " + (102 - tiketsSold)
+          "в вагоне нет свободных сидячих мест, осталось только: " + (vsegoMest - tiketsSold)
               + " стоячих места");
     }
 
