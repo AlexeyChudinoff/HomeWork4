@@ -76,5 +76,20 @@ public class Main {
               + " стоячих места");
     }
 
+    int one = 4;
+    int two = 5;
+    int three =6;
+    if (one > two && one > three) {
+      System.out.println("самое большое число " + one);
+    }
+    if (two > one && two > three) {
+      System.out.println("самое большое число " + two);
+    }
+    //else {
+    //  System.out.println("самое большое число " + three);
+    //}
+    if (three > one && three > two) {
+      System.out.println("самое большое число: " + three);
+    }
   }
 }
