@@ -10,12 +10,11 @@ public class Main {
           "возраст человека " + ageMan + " лет, он не достиг совершеннолетия, нужно подождать");
     }
 
-    byte outdorTemperature = 4; //ситуация когда ровно 5 градусов в звдании не указана
+    byte outdorTemperature = 5; //ситуация когда ровно 5 градусов в звдании не указана
     if (outdorTemperature < 5) {
       System.out.println(
           "На улице температура :" + outdorTemperature + " холодно, нужно надеть шапку");
-    }
-    if (outdorTemperature > 5) {
+    }else {
       System.out.println(
           "Сегодня тепло, температура :" + outdorTemperature + " можно идти без шапки");
     }
